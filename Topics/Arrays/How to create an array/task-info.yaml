@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: val array = IntArray(3)
+- text: val array = intOf(1, 2, 3)
+- text: val array = IntArray(1, 2, 3)
+- text: val array = intArrayOf(1, 2, 3)
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4572#comment
+status: Solved
+record: -1
+custom_name: How to create an array?
+local_check: false

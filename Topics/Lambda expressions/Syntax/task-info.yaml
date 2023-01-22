@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: 'fun(number: Int) = number.toString()'
+- text: 'fun(number: Int): String { return number.toString() }'
+- text: '(number: Int) -&gt; { number.toString() }'
+- text: '(number: Int) =&gt; { number.toString() }'
+- text: '{ number: Int -&gt; number.toString() }'
+- text: '{ number: Int =&gt; number.toString() }'
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6155#comment
+status: Unchecked
+record: -1
+local_check: false

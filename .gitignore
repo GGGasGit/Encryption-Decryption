@@ -1,0 +1,9 @@
+# Project exclude paths
+/.gradle/
+/Encryption-Decryption/task/build/
+/Encryption-Decryption/task/out/
+/Encryption-Decryption/task/out/production/classes/
+/Topics/String arrays/Adding arrays/out/
+/Topics/String arrays/Adding arrays/out/production/classes/
+/Topics/The Math library/National assembly/out/
+/Topics/The Math library/National assembly/out/production/classes/
